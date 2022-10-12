@@ -574,8 +574,11 @@ Let’s try it out with our two artists. In order to perform clustering we first
 <p>We can use the <code>fviz_cluster</code> function from the <code>factoextra</code> library to get a partial picture. If there are more than 2 variables used for clustering, the package performs a PCA and uses the first two principal components for the visualization.</p>
 <div class="sourceCode" id="cb747"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb747-1"><a href="cluster-analysis.html#cb747-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(factoextra)</span>
 <span id="cb747-2"><a href="cluster-analysis.html#cb747-2" aria-hidden="true" tabindex="-1"></a><span class="fu">fviz_cluster</span>(kmeans_tracks, <span class="at">data =</span> famous_tracks_scale,</span>
-<span id="cb747-3"><a href="cluster-analysis.html#cb747-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">palette =</span> <span class="fu">hcl.colors</span>(<span class="dv">3</span>, <span class="at">palette =</span> <span class="st">&quot;Dynamic&quot;</span>), <span class="at">geom =</span> <span class="st">&quot;point&quot;</span>,</span>
-<span id="cb747-4"><a href="cluster-analysis.html#cb747-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">ellipse.type =</span> <span class="st">&quot;convex&quot;</span>, <span class="at">ggtheme =</span> <span class="fu">theme_bw</span>())</span></code></pre></div>
+<span id="cb747-3"><a href="cluster-analysis.html#cb747-3" aria-hidden="true" tabindex="-1"></a>             <span class="at">palette =</span> <span class="fu">hcl.colors</span>(<span class="dv">3</span>, <span class="at">palette =</span> <span class="st">&quot;Dynamic&quot;</span>), </span>
+<span id="cb747-4"><a href="cluster-analysis.html#cb747-4" aria-hidden="true" tabindex="-1"></a>             <span class="at">geom =</span> <span class="st">&quot;point&quot;</span>,</span>
+<span id="cb747-5"><a href="cluster-analysis.html#cb747-5" aria-hidden="true" tabindex="-1"></a>             <span class="at">ellipse.type =</span> <span class="st">&quot;convex&quot;</span>, </span>
+<span id="cb747-6"><a href="cluster-analysis.html#cb747-6" aria-hidden="true" tabindex="-1"></a>             <span class="at">ggtheme =</span> <span class="fu">theme_bw</span>()</span>
+<span id="cb747-7"><a href="cluster-analysis.html#cb747-7" aria-hidden="true" tabindex="-1"></a>             )</span></code></pre></div>
 <p><img src="13-cluster_analysis_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 </div>
 <div id="hierarchical-clustering" class="section level2 hasAnchor" number="9.2">
