@@ -264,7 +264,7 @@ Some libraries require the [XQuartz](https://www.xquartz.org) window system for 
 knitr::include_graphics("./images/error.png")
 ```
 
-2.  If this doesn't solve the issue, try installing the free XCode package from the Apple Appstore, open a Terminal and enter "xcode-select --install". After that try to install the package again (answering "yes" to the question above). 
+2.  If this doesn't solve the issue, try installing the free XCode package from the Apple Appstore, open a Terminal and enter "xcode-select --install". After that try to install the package again (answering "yes" to the question above).  
 
 ## Issues with statistics and data
 
