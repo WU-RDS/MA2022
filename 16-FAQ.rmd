@@ -165,7 +165,7 @@ This error occurs whenever you pass a variable name that is not assigned to some
 
 If you just enter a variable name that is not assigned it looks like this:
 
-`Error: object 'NAME' not found`
+`Error: object 'NAME' not found` 
 
 Check your code for typos and make sure you have run all the relevant lines of code before the one in which the error occurs!
 
