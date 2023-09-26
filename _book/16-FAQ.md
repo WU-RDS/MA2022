@@ -234,7 +234,7 @@ This error occurs whenever you pass a variable name that is not assigned to some
 
 If you just enter a variable name that is not assigned it looks like this:
 
-`Error: object 'NAME' not found`
+`Error: object 'NAME' not found` 
 
 Check your code for typos and make sure you have run all the relevant lines of code before the one in which the error occurs!
 
@@ -355,7 +355,7 @@ Some libraries require the [XQuartz](https://www.xquartz.org) window system for 
 
 <img src="./images/error.png" width="70%" style="display: block; margin: auto;" />
 
-2.  If this doesn't solve the issue, try installing the free XCode package from the Apple Appstore, open a Terminal and enter "xcode-select --install". After that try to install the package again (answering "yes" to the question above). 
+2.  If this doesn't solve the issue, try installing the free XCode package from the Apple Appstore, open a Terminal and enter "xcode-select --install". After that try to install the package again (answering "yes" to the question above).  
 
 ## Issues with statistics and data
 
